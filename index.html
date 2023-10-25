@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/css/normalize.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <title>Document</title>
+</head>
+<body class="body">
+  <div class="time-count-start">
+    <h1 class="time-count-start__title">Time Count</h1>
+    <div class="time-count-start-values">
+      <input 
+        type="text"
+        placeholder="Event name"
+        id="eventName"
+        class="time-count-start-values-input"
+      >
+      <input type="date" 
+        id="date"
+        class="time-count-start-values-input"
+      >
+      <input 
+        type="time"
+        id=""
+        class="time-count-start-values-input"
+      >
+    </div>
+  </div>
+
+
+  <div class="time-count">
+    <h2 class="time-count__title" id="title">Новый год</h2>
+    <div class="time-count__content">
+      <div class="time-count__item time-count__days">
+        <div class="time-count__val" id="days">00</div>
+        <span class="time-count__text" id="daysText" >дней</span>
+      </div>
+      <div class="time-count__separation">:</div>
+      <div class="time-count__item time-count__hours">
+        <div class="time-count__val" id="hours">00</div>
+        <span class="time-count__text" id="hoursText" >часов</span>
+      </div>
+      <div class="time-count__separation">:</div>
+      <div class="time-count__item time-count__minutes">
+        <div class="time-count__val" id="minutes">00</div>
+        <span class="time-count__text" id="minutesText" >минут</span>
+      </div>
+      <div class="time-count__separation">:</div>
+      <div class="time-count__item time-count__seconds">
+        <div class="time-count__val" id="seconds">00</div>
+        <span class="time-count__text" id="secondsText">секунд</span>
+      </div>
+    </div>
+  </div>
+<script src="src/js/app.js"></script>
+</body>
+</html>
